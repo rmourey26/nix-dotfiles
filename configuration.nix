@@ -98,7 +98,7 @@
   users.users.rmourey26 = {
     isNormalUser = true;
     extraGroups = [ "wheel" "networkmanager" "docker" "deployer" ]; # Enable ‘sudo’ for the user.
-    openssh.authorizedKeys.keys = [ "/etc/ssh/authorized_keys.d/rmourey26.pem" "$HOME/Documents/dwnlds/quantumone.pem" "/etc/ssh/authorized_keys.d/anthealth-ec2.pem" ];
+    openssh.authorizedKeys.keys = [ "/etc/ssh/authorized_keys.d/xxxxxx" "/etc/ssh/authorized_keys.d/xxxxxx" ];
     packages = with pkgs; [
       python39Full
     ]; 
